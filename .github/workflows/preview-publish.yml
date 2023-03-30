@@ -10,6 +10,5 @@ on:
 
 jobs:
   call-preview:
-    uses: Tencent/tdesign/.github/workflows/preview.yml@main
-    secrets:
-      TDESIGN_SURGE_TOKEN: ${{ secrets.TDESIGN_SURGE_TOKEN }}
+     run: ｜
+      echo "模拟发布"
